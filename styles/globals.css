@@ -6,8 +6,18 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+body {
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 a {
-  color: inherit;
+  color: dodgerblue;
   text-decoration: none;
 }
 
