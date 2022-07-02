@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Link from 'next/link';
 import { FormattedMessage } from 'react-intl';
 
 const Home: NextPage = () => {
@@ -13,6 +14,15 @@ const Home: NextPage = () => {
       <main>
         <div>
           <FormattedMessage id="greeting" />
+        </div>
+        <div>
+          <Link href="/static-generation/1">Move Static Generation 1</Link>
+        </div>
+        <div>
+          <Link href="/static-generation/2">Move Static Generation 2</Link>
+        </div>
+        <div>
+          <Link href="/static-generation/3">Move Static Generation 3</Link>
         </div>
       </main>
     </>
